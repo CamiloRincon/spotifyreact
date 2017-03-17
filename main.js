@@ -59,7 +59,7 @@ import Contact from './Contact.jsx';
           }
           document.getElementById('login-button').addEventListener('click', function() {
             var client_id = '18cee821e6b04c26b967f27138a8ad18'; // Tu Client ID
-            var redirect_uri = 'http://localhost:3000/'; // Tu Redirect URI (Direccion URL a donde quieres que redireccione luego de iniciar Sesion Con tu cuenta de Spotify.)
+            var redirect_uri = 'http://localhost:7777/'; // Tu Redirect URI (Direccion URL a donde quieres que redireccione luego de iniciar Sesion Con tu cuenta de Spotify.)
             var state = generateRandomString(16);
             localStorage.setItem(stateKey, state);
             var scope = 'user-read-private user-read-email';
