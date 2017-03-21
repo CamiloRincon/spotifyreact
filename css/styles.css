@@ -1,7 +1,138 @@
+html {
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 body {
-	background-color: #d4d4d4;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    text-align: center;
+    color: #FFF;
 }
 
-h1 {
-	font-size: 20px;
+input[type="text"] {
+    width: 30em;
+    margin-bottom: 1em;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px #fff solid;
+    color: #2EBD59;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+a {
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 30px; 
+    text-decoration: none;
+    transition: all .1s linear;
+}
+
+a:hover {
+    background: white;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    display: inline;
+    margin: 50px;
+
+}
+
+.main-container {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+}
+
+.button-spotify {
+    background-color: #2EBD59;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 100px;
+}
+
+.button-spotify:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.profile-picture{
+    height: 200px;
+    width :200px;
+}
+
+.profile {
+    padding: 76px;
+    text-align: left;
+}
+
+.profile p{
+    margin: 0px;
+}
+
+.result {
+    display: inline-block;
+}
+
+.result a, .result a:hover {
+    background: none;
+    color: #FFF;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.result p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 350px;
+}
+
+.result-img {
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+.followers {
+    color:#2EBD59;
+}
+
+.playlist a,
+.playlist a:hover {
+    background: none;
+}
+.playlist-name{
+    color :#2EBD59;
+}
+
+.playlist-item a{
+    padding: 0;
+}
+
+.playlist-description {
+    padding: 5px 0;
+    width:200px;
 }

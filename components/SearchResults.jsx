@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Layout from './Layout.jsx';
 
-class Contact extends React.Component {
+
+class SearchResults extends React.Component {
    render() {
       return (
          <div>
-            <h1>Contact...</h1>
+              <Layout/>
          </div>
       )
    }
 }
 
-export default Contact;
+export default SearchResults;
