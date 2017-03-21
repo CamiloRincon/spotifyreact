@@ -7,7 +7,7 @@ class About extends React.Component {
 	render() {
 		return (
 			<div  className="main-container">
-			<h1> THIS APP WAS BUILDING FOR EDUCATIONAL PUROPOSES</h1>
+			<h1> THIS APP WAS BUILT FOR EDUCATIONAL PUROPOSES</h1>
 				<p> Thanks !!! </p>
 				<p>Camilo Rincon</p>
 				<p>carl.multimedia@gmail.com</p>
